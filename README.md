@@ -26,7 +26,7 @@ A repo for tracking the versions and composition of CIDC pipelines
 | vep      | 91.3         |         |
 | pvacseq  | ???     |         |
 | bedtools | v2.28.0      |         |
-| Optitype | 1.3.1⚠    | conda yaml doesn't specify version; activates a local environment |
+| Optitype | 1.3.1⚠    | perhaps activates a local conda environment |
 | snp-pileup | ???   |         |
 | vcf2maf | ??? |  |
 | bcftools | 1.9     |         |
