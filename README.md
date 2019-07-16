@@ -18,15 +18,15 @@ A repo for tracking the versions and composition of CIDC pipelines
 | bwa      | 0.7.17-r1188 |         |
 | sentieon | 201808.05    |         |
 | sambamba | 0.6.8        |         |
-| sequenza | unbound⚠    | drawn from conda; not anchored to a specific version |
-| PyClone  | unbound⚠    | drawn from conda; not anchored to a specific version |
+| sequenza | 2.1.9999b0⚠    | conda yaml doesn't specify version  |
+| PyClone  | 0.13.1⚠    | conda yaml doesn't specify version |
 | mosdepth |  0.2.3       |         |
 | samtools | 1.9          |         |
 | vcftools | 0.1.16       |         |
 | vep      | 91.3         |         |
 | pvacseq  | ???     |         |
 | bedtools | v2.28.0      |         |
-| Optitype | unbound⚠    | drawn from conda; not anchored to a specific version |
+| Optitype | 1.3.1⚠    | conda yaml doesn't specify version; activates an local environment |
 | snp-pileup | ???   |         |
 | vcf2maf | ??? |  |
 | bcftools | 1.9     |         |
