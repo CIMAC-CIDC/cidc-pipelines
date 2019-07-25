@@ -34,19 +34,30 @@ A repo for tracking the versions and composition of CIDC pipelines
 
 ### Reference catalog
 
-Reference key locations are specified in "ref.yaml"
-
-| reference_key | description | version | source | date | notes                        |
-|---------------|-------------|---------|--------|------|------------------------------|
-| bwa_index     |             | GRCh38  |        |      | processed by BWA version ??? |
-| genome_fasta  |             | GRCh38  |        |      |                              |
-| dbsnp         |             | 138     |        |      |                              |
-| Mills_indels  |             | hg38    |        |      |                              |
-| G1000_indels  |             | phase1 hg38 |    |      |                              |
-| CDS_Bed_input |             | gencode27 |      |      | cannoincal chromosomes only  |
-| target_Bed_input | mocha targets |     |       |      |                              |
-| positions_bamtovcf |        |         |        |      |      |
-| positions_SNP92 |           |          |       |      |      |
-| vep_data |    |          |       |      |      |
-| vep_plugins | |          |       |      |      |
-| vep_synonyms | |         |       |      |      |
+|    | reference_key      | genome_version   | location                                                              | reference_version   | source   | date   |
+|---:|:-------------------|:-----------------|:----------------------------------------------------------------------|:--------------------|:---------|:-------|
+|  0 | bwa_index          | hg38             | ./ref_files/hg38/bwa_gdc/GRCh38.d1.vd1.fa                             |                     |          |        |
+|  1 | genome_fasta       | hg38             | ./ref_files/hg38/bwa_gdc/GRCh38.d1.vd1.fa                             |                     |          |        |
+|  2 | dbsnp              | hg38             | ./ref_files/hg38/snp/Homo_sapiens_assembly38.dbsnp138.vcf             |                     |          |        |
+|  3 | Mills_indels       | hg38             | ./ref_files/hg38/snp/Mills_and_1000G_gold_standard.indels.hg38.vcf.gz |                     |          |        |
+|  4 | G1000_indels       | hg38             | ./ref_files/hg38/snp/1000G_phase1.snps.high_confidence.hg38.vcf.gz    |                     |          |        |
+|  5 | CDS_Bed_input      | hg38             | ./ref_files/hg38/gencode27.canonical.bed                              |                     |          |        |
+|  6 | target_Bed_input   | hg38             | ./ref_files/hg38/target_beds/mocha.liftover.hg38.bed                  |                     |          |        |
+|  7 | positions_bamtovcf | hg38             | ./ref_files/hg38/target_beds/pos_bamtovcf.bed                         |                     |          |        |
+|  8 | positions_SNP92    | hg38             | ./ref_files/hg38/target_beds/pos_filtervcf.bed                        |                     |          |        |
+|  9 | vep_data           | hg38             | ./ref_files/hg38/vep                                                  |                     |          |        |
+| 10 | vep_plugins        | hg38             | ./ref_files/hg38/vep/VEP_plugins                                      |                     |          |        |
+| 11 | vep_synonyms       | hg38             | ./ref_files/hg38/vep/homo_sapiens/91_GRCh38/chr_synonyms.txt          |                     |          |        |
+| 12 | vep_custom_enst    | hg38             | ./ref_files/hg38/vep/myc_isoform_overrides_uniprot                    |                     |          |        |
+| 13 | vep_fasta          | hg38             | ./ref_files/hg38/vep/hg38.canonical.fa                                |                     |          |        |
+| 14 | vep_filter         | hg38             | ./ref_files/hg38/vep/ExAC_nonTCGA.r0.3.1.sites.vep.vcf.gz             |                     |          |        |
+| 15 | vep_assembly       | hg38             | GRCh38                                                                |                     |          |        |
+| 16 | pons               | hg38             | ./ref_files/hg38/pons/lung_TCGA_cnv_pad0                              |                     |          |        |
+| 17 | pons_target        | hg38             | ./ref_files/hg38/pons/MDA_Broad_Miao.target.bed                       |                     |          |        |
+| 18 | pons_haplotyper    | hg38             | ./ref_files/hg38/pons/TNhaplotyper_PoN.vcf.gz                         |                     |          |        |
+| 19 | pons_tnsnv         | hg38             | ./ref_files/hg38/pons/TNsnv_PoN.vcf                                   |                     |          |        |
+| 20 | facets_vcftar      | hg38             | ./ref_files/hg38/snp/00-common_all.vcf.gz                             |                     |          |        |
+| 21 | gc_file            | hg38             | ./ref_files/hg38/clonality/hg38.gc50Base.txt.gz                       |                     |          |        |
+| 22 | neoantigen_iedb    | hg38             | ./ref_files/hg38/iedb                                                 |                     |          |        |
+| 23 | bwa_index          | hg19             | ./ref_files/hg19/bwa_indices/hg19/hg19.fa                             |                     |          |        |
+| 24 | genome_fasta       | hg19             | ./path/to/hg19.fasta                                                  |                     |          |        |
