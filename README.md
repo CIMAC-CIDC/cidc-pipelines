@@ -12,7 +12,7 @@ A repo for tracking the versions and composition of CIDC pipelines
 | wes-ver1-83 | google compute image | 1-83 | `42WmSpB8rSM=` | label fingerprint of the image |
 | reference-disk | contains WES reference | ??? | ??? | ??? |
 
-### Environment catalog
+### Environments
 
 | name     | type |    version   | notes   |
 |----------|------|--------------|---------|
@@ -20,7 +20,7 @@ A repo for tracking the versions and composition of CIDC pipelines
 | optitype | conda | ???         | locally built |
 
 
-### Tool catalog
+### Tools
 
 | tool     | version      | environment | notes   |
 |----------|--------------|-------------|---------|
@@ -40,7 +40,7 @@ A repo for tracking the versions and composition of CIDC pipelines
 | vcf2maf | ??? |  | |
 | bcftools | 1.9     |         | |
 
-### Reference catalog (automatically generated)
+### References
 
 | reference_key      | genome_version   | location                                                              | reference_version   | source   | date   |
 |:-------------------|:-----------------|:----------------------------------------------------------------------|:--------------------|:---------|:-------|
