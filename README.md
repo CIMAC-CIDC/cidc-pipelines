@@ -5,12 +5,12 @@ A repo for tracking the versions and composition of CIDC pipelines
 
 ### Components
 
-| name     | description      | version | hash    | notes                 |
-|----------|------------------|---------|---------|-----------------------|
-| cidc_wes | snakemake github |         | [`9b26a3d`](https://github.com/CIMAC-CIDC/cidc-wes/commit/9b26a3d063716eb176a40a23ef5213edd3a7a785) | commit from 6/12/2019 |
-| 20190709_wesGCP_jason_update.txt | job submission protocol | | `ce44437cb14f38aadabc53838ed45fa3` | md5 checksum of text file |
-| wes-ver1-83 | google compute image | 1-83 | `42WmSpB8rSM=` | label fingerprint of the image |
-| reference-disk | contains WES reference | ??? | ??? | ??? |
+| name     | version | hash    | notes                 |
+|----------|---------|---------|-----------------------|
+| cidc_wes |         | [`9b26a3d`](https://github.com/CIMAC-CIDC/cidc-wes/commit/9b26a3d063716eb176a40a23ef5213edd3a7a785) | snakemake github; commit from 6/12/2019 |
+| 20190709_wesGCP_jason_update.txt | | `ce44437cb14f38aadabc53838ed45fa3` | job submission protocol; md5 checksum of text file |
+| wes-ver1-83 | 1-83 | `42WmSpB8rSM=` | google compute image; label fingerprint of the image |
+| reference-disk | ??? | ??? | contains the WES reference data |
 
 ### Environments
 
