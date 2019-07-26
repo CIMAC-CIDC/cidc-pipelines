@@ -5,7 +5,7 @@ A repo for tracking the versions and composition of CIDC pipelines
 
 ### Components
 
-| name     | description      | version | hash    | label                 |
+| name     | description      | version | hash    | notes                 |
 |----------|------------------|---------|---------|-----------------------|
 | cidc_wes | snakemake github |         | [`9b26a3d`](https://github.com/CIMAC-CIDC/cidc-wes/commit/9b26a3d063716eb176a40a23ef5213edd3a7a785) | commit from 6/12/2019 |
 | 20190709_wesGCP_jason_update.txt | job submission protocol | | `ce44437cb14f38aadabc53838ed45fa3` | md5 checksum of text file |
