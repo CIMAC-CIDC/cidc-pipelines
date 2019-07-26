@@ -59,7 +59,6 @@ A repo for tracking the versions and composition of CIDC pipelines
 | vep_custom_enst    | hg38             | ./ref_files/hg38/vep/myc_isoform_overrides_uniprot                    |                     |          |        |
 | vep_fasta          | hg38             | ./ref_files/hg38/vep/hg38.canonical.fa                                |                     |          |        |
 | vep_filter         | hg38             | ./ref_files/hg38/vep/ExAC_nonTCGA.r0.3.1.sites.vep.vcf.gz             |                     |          |        |
-| vep_assembly       | hg38             | GRCh38                                                                |                     |          |        |
 | pons               | hg38             | ./ref_files/hg38/pons/lung_TCGA_cnv_pad0                              |                     |          |        |
 | pons_target        | hg38             | ./ref_files/hg38/pons/MDA_Broad_Miao.target.bed                       |                     |          |        |
 | pons_haplotyper    | hg38             | ./ref_files/hg38/pons/TNhaplotyper_PoN.vcf.gz                         |                     |          |        |
