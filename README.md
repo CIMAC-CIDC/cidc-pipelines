@@ -43,7 +43,7 @@ A repo for tracking the versions and composition of CIDC pipelines
 ### References
 
 | reference_key      | location                                                              | reference_version   | source   | date   |
-|:-------------------|:-----------------|:----------------------------------------------------------------------|:--------------------|:---------|:-------|
+|:-------------------|:----------------------------------------------------------------------|:--------------------|:---------|:-------|
 | bwa_index_hg38          | ./ref_files/hg38/bwa_gdc/GRCh38.d1.vd1.fa                             |                     |          |        |
 | genome_fasta_hg38       | ./ref_files/hg38/bwa_gdc/GRCh38.d1.vd1.fa                             |                     |          |        |
 | dbsnp              | ./ref_files/hg38/snp/Homo_sapiens_assembly38.dbsnp138.vcf             |                     |          |        |
