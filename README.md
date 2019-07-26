@@ -12,27 +12,35 @@ A repo for tracking the versions and composition of CIDC pipelines
 | wes-ver1-83 | google compute image | 1-83 | `42WmSpB8rSM=` | label fingerprint of the image |
 | reference-disk | contains WES reference | ??? | ??? | ??? |
 
+### Environment catalog
+
+| name     | type |    version   | notes   |
+|----------|------|--------------|---------|
+| pyclone  | conda | ???         |         |
+| optitype | conda | ???         | locally built |
+
+
 ### Tool catalog
 
-| tool     | version      | notes   |
-|----------|--------------|---------|
-| bwa      | 0.7.17-r1188 |         |
-| sentieon | 201808.05    |         |
-| sambamba | 0.6.8        |         |
-| sequenza | 2.1.9999b0    | conda yaml version?  |
-| PyClone  | 0.13.1    | conda yaml version? |
-| mosdepth |  0.2.3       |         |
-| samtools | 1.9          |         |
-| vcftools | 0.1.16       |         |
-| vep      | 91.3         |         |
-| pvacseq  | ???     |         |
-| bedtools | v2.28.0      |         |
-| Optitype | 1.3.1    | local conda environment? |
-| snp-pileup | ???   |         |
-| vcf2maf | ??? |  |
-| bcftools | 1.9     |         |
+| tool     | version      | environment | notes   |
+|----------|--------------|-------------|---------|
+| bwa      | 0.7.17-r1188 |         | |
+| sentieon | 201808.05    |         | |
+| sambamba | 0.6.8        |         | |
+| sequenza | 2.1.9999b0    | pyclone  | |
+| PyClone  | 0.13.1    | pyclone | |
+| mosdepth |  0.2.3       |         | |
+| samtools | 1.9          |         | |
+| vcftools | 0.1.16       |         | |
+| vep      | 91.3         |         | |
+| pvacseq  | ???     |         | |
+| bedtools | v2.28.0      |         | |
+| Optitype | 1.3.1    | optitype | |
+| snp-pileup | ???   |         | |
+| vcf2maf | ??? |  | |
+| bcftools | 1.9     |         | |
 
-### Reference catalog
+### Reference catalog (automatically generated)
 
 | reference_key      | genome_version   | location                                                              | reference_version   | source   | date   |
 |:-------------------|:-----------------|:----------------------------------------------------------------------|:--------------------|:---------|:-------|
